@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,300&family=Playfair+Display&family=Sometype+Mono:wght@500&display=swap');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /*background-image: url(team-meeting.jpg);*/
+    background-image: url(business-woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: #ccc;
+}
+.logo{
+    padding: 10px;
+    letter-spacing: 5px;
+}
+.logo:hover{
+    color: blue;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 5px;   
+    text-align: center;
+    line-height: 50px;
+    /*background-color: aqua;*/
+    list-style:none;
+}
+.navbar #fa{
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+}
+.content p{
+    text-align: center;
+}
+.content{
+    text-align: center;
+    padding: 20px;
+    margin: 200px;
+    margin-left: 0;
+    font-size: 25px;
+    color:black;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Sometype Mono', monospace;
+}
+.content button{
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 15px;
+    border: none;
+}
+.content button:hover{
+    color: #ffff;
+    padding: 25px;
+}
